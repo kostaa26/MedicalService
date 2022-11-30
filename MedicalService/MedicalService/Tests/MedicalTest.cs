@@ -2,7 +2,7 @@ using MedicalService.Driver;
 using MedicalService.Page;
 using System.Security.Cryptography.X509Certificates;
 
-namespace MedicalService
+namespace MedicalService.Tests
 {
     public class Tests
     {
@@ -38,7 +38,7 @@ namespace MedicalService
 
 
             Assert.That("Appointment Confirmation", Is.EqualTo(medicalPage.Confirm.Text));
-                
+
         }
     }
 }
